@@ -1,0 +1,23 @@
+#row-2 {
+    display: flex;
+}
+#row-2 > div {
+    flex: 2;
+}
+#row-2 > div:nth-child(1) {
+    flex: 1.8;
+}
+#row-2 > div:nth-child(1) > ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+#row-2 > div:nth-child(1) > ul li{
+    width: 32.3%;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid gainsboro;
+    padding: 27.8px 0px;
+    cursor: pointer;
+}

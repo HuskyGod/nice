@@ -1,0 +1,26 @@
+@import "row-2/index.css";
+@import "row-3/index.css";
+@import "content_2/index.css";
+@import "content_3/index.css";
+@import "content_4/index.css";
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+#nav {
+    background: gainsboro;
+    color: gray;
+    font-size: 12px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content {
+    width: 100%;
+    max-width: 1500px;
+    margin: 20px auto;
+    overflow: hidden;
+}

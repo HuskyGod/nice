@@ -1,0 +1,26 @@
+@import "./nav.css";
+@import "./buttom.css";
+@import "./item.css";
+#banner{
+    position: relative;
+}
+#banner .item_img{
+    position: relative;
+    height: 512px;
+    overflow: hidden;
+}
+#banner .item_img img {
+    position: absolute;
+    opacity: 0;
+}
+#banner .item_img img:nth-child(1){
+    opacity: 1;
+}
+.warp_bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+}

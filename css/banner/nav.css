@@ -1,0 +1,32 @@
+.banner_nav {
+    flex: 1;
+    background: rgba(0,0,0,0.8);
+}
+.banner_nav ul{
+    list-style: none;
+}
+.banner_nav ul li{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    cursor:pointer;
+}
+.banner_nav ul li:hover{
+    background: white;
+    color: black;
+    border: 1px solid gainsboro;
+}
+.banner_nav ul li:hover .nav_box{
+    display: none;
+}
+.nav_text:after{
+    content: ">";
+    float: right;
+}
+.nav_box {
+    display: none;
+    background:white;
+    border:1px solid gainsboro;
+    position: absolute;
+    top: 0px;
+}

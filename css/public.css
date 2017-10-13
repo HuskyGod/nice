@@ -1,0 +1,76 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.margin_t_b_20 {
+    margin: 20px 0px;
+}
+.margin_l_r_20 {
+    margin: 0px 20px;
+}
+.margin_r_20 {
+    margin: 0px 20px 0px 0px;
+}
+.margin_t_3 {
+    margin-top: 3px;
+}
+.margin_t_10 {
+    margin-top: 10px;
+}
+.margin_t_20 {
+    margin-top: 20px;
+}
+.margin_t_50 {
+    margin-top: 50px;
+}
+.margin_t_100 {
+    margin-top: 100px;
+}
+.margin_l_10 {
+    margin-left: 10px;
+}
+.margin_l_20 {
+    margin-left: 20px;
+}
+.padding_l_10 {
+    padding-left: 10px;
+}
+.padding_t_b_10{
+    padding: 10px 0px;
+}
+.padding_b_20 {
+    padding-bottom: 20px;
+}
+.commodity_name{
+    font-size: 14px;
+}
+.commodity_info{
+    font-size: 14px;
+    color: gainsboro;
+}
+.commodity_money{
+    font-size: 14px;
+    color: orangered;
+}
+.hot,.new{
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    top: 5px;
+}
+.hot span{
+    padding: 5px;
+    color: white;
+    background: red;
+    text-align: center;
+}
+.new span {
+    padding: 5px;
+    color: white;
+    background: green;
+    text-align: center;
+}

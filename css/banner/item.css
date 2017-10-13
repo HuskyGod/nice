@@ -1,0 +1,18 @@
+.banner_item {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.banner_item ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.banner_item ul li {
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,0,0,0.4);
+}
