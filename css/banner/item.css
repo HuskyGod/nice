@@ -2,6 +2,7 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
+    z-index: 3;
 }
 .banner_item ul{
     list-style: none;
@@ -15,4 +16,7 @@
     padding: 10px 20px;
     background: rgba(255,255,255,0.5);
     border: 1px solid rgba(255,0,0,0.4);
+}
+.banner_item ul li.avite {
+    background: white;
 }
