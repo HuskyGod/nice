@@ -165,6 +165,10 @@
 }
 .row6_banner li{
     width: 265px;
+    padding: 10px;
+}
+.row6_banner li:nth-child(2) {
+    padding: 20px;
 }
 .row6_commodity_item ul{
     padding-bottom: 50px;
